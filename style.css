@@ -1,0 +1,77 @@
+html {
+  line-height: 1.5;
+  font-family: "fontFamily.sans", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 0 10%;
+  color: #262626;
+  background: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 0.8em;
+  line-height: 1rem;
+  font-weight: 200;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.75rem;
+  margin: 1rem 0;
+  max-width: 32rem;
+}
+
+a {
+  color: #4B7C86;
+}
+
+.fab, .fas {
+	font-size: 40px;
+	color: #4B7C86;
+	padding-right: 1rem;
+	transform: scale(1);
+	transition: all 0.2s ease-in-out;
+}
+
+.fab:hover, .fas:hover, .fab:focus, .fas:focus {
+	color: #31b0d5;
+	transform: scale(1.2);
+}
+
+.contact-links {
+  list-style: none;
+  padding: 4rem 0 0 0;
+}
+
+.inline-list-item {
+  display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background: #262626;
+  }
+}
