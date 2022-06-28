@@ -47,6 +47,10 @@ a {
   color: #4B7C86;
 }
 
+a:hover, a:focus {
+	color: #31b0d5;
+}
+
 .fab, .fas {
 	font-size: 40px;
 	color: #4B7C86;
